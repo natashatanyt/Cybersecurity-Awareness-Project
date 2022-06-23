@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+hr.gradient {
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, transparent, #002366, transparent);
+  margin: 2rem;
+}
+
+.container-fluid {
+  padding: 0 5%;
+  margin: 1rem 0;
+}
+
+/* Navbar Styles */
+.navbar {
+  padding: 1rem;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.nav-item {
+  padding: 0 5px;
+}
+
+.nav-link {
+  font-weight: 200;
+}
+
+.dropdown-content {
+  font-size: 1.5rem;
+}
+
+.nav-container {
+  padding: 0;
+  margin: 0;
+}
+
+/* Introduction Box */
+.introduction {
+  margin: 1rem 0 2rem;
+}
+
+.introduction-title {
+  font-size: 3.5rem;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+.introduction-content {
+  line-height: 1.5rem;
+}
+
+/* Topics */
+.topics-title {
+
+}
+
+.card {
+  margin: 1rem auto;
+  width: 44%;
+}

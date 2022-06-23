@@ -14,7 +14,7 @@ h1{
 }
 
 p {
-  line-height: 2.2rem;
+  line-height: 2rem;
 }
 
 hr.gradient {
@@ -66,13 +66,14 @@ hr.gradient {
   margin-bottom: 2rem;
 }
 
-.introduction-content {
-  line-height: 1.5rem;
+/* Topics */
+.topics {
+  margin: 1rem 0 2rem;
 }
 
-/* Topics */
 .topics-title{
-
+  padding: 0;
+  margin-bottom: 2rem;
 }
 
 .topics-row {
@@ -82,7 +83,21 @@ hr.gradient {
 
 .card {
   margin: 0 0 1rem;
-  width: 45%;
+  border-color: black;
+}
+
+.card-header{
+  background-color: white;
+  border: none;
+  margin: 0;
+  padding-bottom: 0;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.card-text{
+  padding: 0 1rem;
+  margin: 0;
 }
 
 .card-footer{

@@ -1,34 +1,42 @@
 :root {
-  background-color: #ecf5ff;
+  background-color: #fff;
   font-size: 62.5%;
+  text-align: justify;
 }
 
-*{
+* {
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica;
   margin: 0;
   padding: 0;
   color: #333;
 }
 
-h1,h2,h3,h4 {
+h1,
+h2,
+h3,
+h4 {
   margin-bottom: 1rem;
 }
 
 h1 {
-  font-size: 5.4rem;
-  color: #56a5eb;
-  margin-bottom: 5rem;
+  font-size: 5rem;
+  color: #216bad;
+  margin-bottom: 2rem;
 }
 
-h1 > span {
+h2 {
+  color: #216bad;
+}
+
+h1>span {
   font-size: 2.4rem;
   font-weight: 500;
 }
 
 h2 {
-  font-size: 4.2rem;
-  margin-bottom: 4rem;
+  font-size: 3rem;
+  margin-bottom: 1rem;
   font-weight: 700;
 }
 
@@ -37,20 +45,26 @@ h3 {
   font-weight: 500;
 }
 
-/* UTILITIES */
-.container {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 80rem;
-  margin: 0 auto;
-  padding: 3rem;
+p, ul, li {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
 }
 
-.container > * {
-  width: 100%;
+ul, li {
+  margin-left: 1rem;
+}
+
+/* UTILITIES */
+.container {
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto 0;
+  padding: 0.75rem 2rem;
+}
+
+.final-score-text {
+  margin-bottom: 0;
 }
 
 .flex-column {
@@ -76,27 +90,49 @@ h3 {
 }
 
 /* BUTTONS */
-.btn {
-  font-size: 1.8rem;
+.button {
+  font-size: 2rem;
   padding: 1rem 0;
-  width: 20rem;
-  text-align: center;
-  border: 0.1rem solid #56a5eb;
+  margin-top: 0.8rem;
   margin-bottom: 1rem;
+  width: 25rem;
+  text-align: center;
+  border: 0.2rem solid #216bad;
   text-decoration: none;
-  color: #56a5eb;
+  color: #216bad;
   background-color: white;
 }
 
-.btn:hover {
+.button:hover {
   cursor: pointer;
   box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
   transform: translateY(-0.1rem);
   transition: transform 150ms;
 }
 
-.btn[disabled]:hover {
+.button[disabled]:hover {
   cursor: not-allowed;
   box-shadow: none;
   transform: none;
+}
+
+.introduction{
+  margin-top: 3rem;
+}
+
+.references {
+  margin-bottom: 3rem;
+}
+
+.row {
+  display: flex;
+  text-align: justify;
+}
+
+.column-img {
+  flex: 35%;
+  padding-left: 5rem;
+  margin: auto;
+  align-content: center;
+  justify-content: center;
 }

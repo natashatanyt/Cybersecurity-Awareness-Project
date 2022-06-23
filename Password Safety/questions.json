@@ -1,0 +1,41 @@
+[{
+    "question": "When should you share your password with friends?",
+    "choice1": "You should never share your password",
+    "choice2": "If they ask for it",
+    "choice3": "If they are helping you do something on that account",
+    "choice4": "None of the above",
+    "answer": 1
+  },
+  {
+    "question": "Which of the following are traits for a strong password?",
+    "choice1": "Use the same password as other accounts",
+    "choice2": "Use personal information",
+    "choice3": "Keep it short so it is easy to remember",
+    "choice4": "None of the above",
+    "answer": 4
+  },
+  {
+    "question": "What should I do if my account has been compromised?",
+    "choice1": "Reset my password",
+    "choice2": "Enable multi-factor authentication",
+    "choice3": "Check if other accounts have been compromised",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+  {
+    "question": "A good password should be...",
+    "choice1": "Easy to guess",
+    "choice2": "Kept to myself",
+    "choice3": "Something difficult to remember",
+    "choice4": "None of the above",
+    "answer": 2
+  },
+  {
+    "question": "If you need to make a new password, which of the following should you do?",
+    "choice1": "Use personal information",
+    "choice2": "Use the same password as your other accounts",
+    "choice3": "Use a passphrase that is unique to you and easy to remember",
+    "choice4": "All of the above",
+    "answer": 3
+  }
+]

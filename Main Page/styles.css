@@ -5,6 +5,16 @@ body {
   text-align: left;
   margin: 0;
   padding: 0;
+  font-size: 62.5%;
+  font-size: 1.5rem;
+}
+
+h1{
+  font-size: 4.5rem;
+}
+
+p {
+  line-height: 2.2rem;
 }
 
 hr.gradient {
@@ -15,7 +25,7 @@ hr.gradient {
 }
 
 .container-fluid {
-  padding: 0 5%;
+  padding: 0 5rem;
   margin: 1rem 0;
 }
 
@@ -52,7 +62,6 @@ hr.gradient {
 }
 
 .introduction-title {
-  font-size: 3.5rem;
   padding: 0;
   margin-bottom: 2rem;
 }
@@ -62,11 +71,23 @@ hr.gradient {
 }
 
 /* Topics */
-.topics-title {
+.topics-title{
 
 }
 
+.topics-row {
+  padding: 0;
+  margin: 1rem 0;
+}
+
 .card {
-  margin: 1rem auto;
-  width: 44%;
+  margin: 0 0 1rem;
+  width: 45%;
+}
+
+.card-footer{
+  background-color: white;
+  border: none;
+  margin: 0;
+  padding-top: 0;
 }

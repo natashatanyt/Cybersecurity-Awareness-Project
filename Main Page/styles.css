@@ -17,21 +17,27 @@ p {
   line-height: 2rem;
 }
 
+a {
+  text-decoration: underline;
+  color: black;
+}
+
 hr.gradient {
   border: 0;
-  height: 2px;
+  height: 3px;
+  margin: 2rem auto;
+  width: 50%;
   background-image: linear-gradient(to right, transparent, #002366, transparent);
-  margin: 2rem;
 }
 
 .container-fluid {
-  padding: 0 5rem;
+  padding: 0 10%;
   margin: 1rem 0;
 }
 
 /* Navbar Styles */
 .navbar {
-  padding: 1rem;
+  padding: 1rem 7%;
 }
 
 .navbar-brand {
@@ -78,11 +84,10 @@ hr.gradient {
 
 .topics-row {
   padding: 0;
-  margin: 1rem 0;
 }
 
 .card {
-  margin: 0 0 1rem;
+  margin: 1rem 0 1rem;
   border-color: black;
 }
 
@@ -105,4 +110,9 @@ hr.gradient {
   border: none;
   margin: 0;
   padding-top: 0;
+}
+
+/* Other References */
+.other-references{
+  margin-bottom: 10%;
 }

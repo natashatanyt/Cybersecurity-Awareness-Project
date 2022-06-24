@@ -1,0 +1,86 @@
+h1 {
+  font-size: 4.5rem;
+}
+
+p {
+  margin-bottom: 0;
+  font-size: 1.5rem;
+}
+
+hr.gradient {
+  border: 0;
+  height: 3px;
+  margin: 2rem auto;
+  width: 50%;
+  background-image: linear-gradient(to right, transparent, #002366, transparent);
+}
+
+a {
+  color: black;
+}
+
+.container {
+  width: 90%;
+  height: 100vh;
+  max-width: 85rem;
+  margin-top: 2rem;
+}
+
+.qn-container {
+  margin: 0.7rem 0;
+}
+
+.question{
+  margin-bottom: 1rem;
+}
+
+.choice-container {
+  display: flex;
+  margin-bottom: 0.5rem;
+  width: 100%;
+  font-size: 1.8rem;
+  border: 0.1rem solid rgb(0, 0, 0, 0.5);
+  background-color: white;
+}
+
+.choice-container:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(0, 0, 0, 0.5);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+.choice-prefix {
+  padding: 1.5rem 2.5rem;
+  background-color: #000;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.choice-text {
+  padding: auto;
+  margin: auto;
+  padding-left: 1.2rem;
+  width: 100%;
+}
+
+.correct {
+  background-color: #28a745;
+  color: white;
+}
+
+.incorrect {
+  background-color: #dc3545;
+}
+
+.buttons {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.btn-outline-dark{
+  width: 33%;
+  font-size: 1.5rem;
+  margin: 1rem 2rem;
+}

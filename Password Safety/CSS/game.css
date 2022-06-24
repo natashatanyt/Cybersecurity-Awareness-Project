@@ -1,5 +1,10 @@
-:root{
-  text-align: left;
+h1 {
+  font-size: 4.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 1.5rem 0;
 }
 
 p {
@@ -8,16 +13,9 @@ p {
 
 .container {
   width: 90%;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
+  height: 80vh;
   max-width: 85rem;
-  margin: 0 auto;
-  padding: 2rem;
-}
-
-.explanation-container{
-  height: auto;
+  margin-top: 2rem;
 }
 
 .choice-container {
@@ -25,25 +23,29 @@ p {
   margin-bottom: 0.5rem;
   width: 100%;
   font-size: 1.8rem;
-  border: 0.1rem solid rgb(86, 165, 235, 0.25);
+  border: 0.1rem solid rgb(0, 0, 0, 0.5);
   background-color: white;
 }
 
 .choice-container:hover {
   cursor: pointer;
-  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(0, 0, 0, 0.5);
   transform: translateY(-0.1rem);
   transition: transform 150ms;
 }
 
 .choice-prefix {
   padding: 1.5rem 2.5rem;
-  background-color: #56a5eb;
+  background-color: #000;
+  text-align: center;
   color: white;
+  font-weight: bold;
 }
 
 .choice-text {
-  padding: 1.5rem;
+  padding: auto;
+  margin: auto;
+  padding-left: 1.2rem;
   width: 100%;
 }
 
@@ -64,8 +66,8 @@ p {
 
 .hud-prefix {
   text-align: center;
-  font-size: 3rem;
-  color: #216bad;
+  font-size: 2.5rem;
+  color: #000;
   margin: 0;
   padding: 0;
 }
@@ -77,12 +79,12 @@ p {
 #progressBar {
   width: 20rem;
   height: 4rem;
-  border: 0.3rem solid #56a5eb;
-  margin-top: 1.5rem;
+  border: 0.3rem solid #000;
+  margin-top: 1rem;
 }
 
 #progressBarFull {
   height: 3.5rem;
-  background-color: #56a5eb;
+  background-color: #000;
   width: 0%;
 }

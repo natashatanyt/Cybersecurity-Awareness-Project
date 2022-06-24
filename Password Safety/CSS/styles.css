@@ -9,8 +9,13 @@ body {
   font-size: 1.5rem;
 }
 
-h1{
+h1 {
   font-size: 4.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bolder;
 }
 
 p {
@@ -30,9 +35,13 @@ hr.gradient {
   background-image: linear-gradient(to right, transparent, #002366, transparent);
 }
 
+li {
+  margin: 0.2rem 0;
+}
+
 .container-fluid {
   padding: 0 10%;
-  margin: 1rem 0;
+  margin: 1rem 0 2%;
 }
 
 /* Navbar Styles */
@@ -51,7 +60,6 @@ hr.gradient {
 
 .nav-link {
   font-weight: 200;
-  text-decoration: none;
 }
 
 .dropdown-content {
@@ -63,57 +71,27 @@ hr.gradient {
   margin: 0;
 }
 
-/* Introduction Box */
-.introduction {
-  margin: 1rem 0 2rem;
+/* Introduction */
+.introduction-image {
+  display: block;
 }
 
-.introduction-title {
-  padding: 0;
-  margin-bottom: 2rem;
-}
-
-/* Topics */
-.topics {
-  margin: 1rem 0 2rem;
-}
-
-.topics-title{
-  padding: 0;
-  margin-bottom: 2rem;
-}
-
-.topics-row {
+.introduction-content {
+  width: 100%;
   padding: 0;
 }
 
-.card {
-  margin: 1rem 0 1rem;
-  border-color: black;
+.introduction-image {
+  width: auto;
 }
 
-.card-header{
-  background-color: white;
-  border: none;
-  margin: 0;
-  padding-bottom: 0;
-  font-size: 150%;
-  font-weight: bold;
+/* Quiz */
+.play-btn {
+  text-align: center;
 }
 
-.card-text{
-  padding: 0 1rem;
-  margin: 0;
-}
-
-.card-footer{
-  background-color: white;
-  border: none;
-  margin: 0;
-  padding-top: 0;
-}
-
-/* Other References */
-.other-references{
-  margin-bottom: 10%;
+.btn {
+  font-size: 1.5rem;
+  width: 20%;
+  margin: 2% 0 0;
 }

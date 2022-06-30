@@ -1,0 +1,41 @@
+[{
+    "question": "Which of these articles is not clickbait?",
+    "choice1": "This is how you can get games for free!",
+    "choice2": "95% of people wash their hands improperly: are you one of them?",
+    "choice3": "7 things only dog-owners know!",
+    "choice4": "None of the above",
+    "answer": 2
+  },
+  {
+    "question": "How can you check if an article is false?",
+    "choice1": "Use common sense",
+    "choice2": "Check the source",
+    "choice3": "Search for similar headlines from reputable news outlets",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+  {
+    "question": "Which of these statements about clickbait is false?",
+    "choice1": "Clickbait articles often include misinformation",
+    "choice2": "Clickbait articles help companies earn money from advertisers",
+    "choice3": "Clickbait articles are well-written and have credible sources",
+    "choice4": "Clickbait articles can spread fake news",
+    "answer": 3
+  },
+  {
+    "question": "What are signs that the image/video is a deepfake?",
+    "choice1": "The background looks weird",
+    "choice2": "The audio and video are out-of-sync",
+    "choice3": "The video looks pixelated and blurry",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+  {
+    "question": "Why are deepfakes dangerous?",
+    "choice1": "It can be used to blackmail people",
+    "choice2": "It can spread misinformation",
+    "choice3": "It can destroy someone's reputation",
+    "choice4": "All of the above",
+    "answer": 4
+  }
+]

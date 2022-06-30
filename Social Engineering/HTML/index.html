@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Social Engineering</title>
+
+  <!-- Stylesheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="../../CSS/styles.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!--- Sticky Top--->
+  <nav class="navbar sticky-top navbar-expand-xl navbar-light bg-light">
+    <div class="nav-container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="navbar-nav">
+          <a class="nav-link" href="../../Main Page/index.html">Home</a>
+          <a class="nav-link" href="../../Clickbait/HTML/index.html">Clickbait</a>
+          <a class="nav-link" href="../../Doxxing/HTML/index.html">Doxxing</a>
+          <a class="nav-link" href="../../Gaming/HTML/index.html">Gaming</a>
+          <a class="nav-link" href="../../Malware/HTML/index.html">Malware</a>
+          <a class="nav-link" href="../../Multi-Factor Authentication/HTML/index.html">MFA</a>
+          <a class="nav-link" href="../../Password Safety/HTML/index.html">Passwords</a>
+          <a class="nav-link active" aria-current="page" href="../../Social Engineering/HTML/index.html">Social Engineering</a>
+          <a class="nav-link" href="../../Social Media/HTML/index.html">Social Media</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!--- Introduction --->
+  <div class="container-fluid align-items-center justify-content-center introduction">
+    <h1>Introduction</h1>
+    <p>
+      Attackers can use various methods to collect data and learn about you. With this data, they are able to effectively engineer attacks that prey on your emotions, manipulating you into giving sensitive information. In doing so, they may be able
+      to gain access to your bank accounts, or your passwords to do illegal activities.
+      <br>
+      This kind of attack is known as a Social Engineering Attack. This attack works by preying on human emotions and vulnerabilities, and manipulating victims, usually through online communication, for fraudulent purposes.
+      <br>
+      To increase the likelihood of a successful attack, the attacker will first identify a victim and gather background information and proceed to build trust with the victim, with the goal of executing the attack to obtain sensitive information.
+      However, not all attacks first rely on gathering information. Some attacks will rely on the curious nature of victims, such as baiting attacks. Therefore, it is important to know the different types of attacks to prevent yourself from becoming
+      a victim.
+    </p>
+
+    <h2>An Example</h2>
+    <p>
+      These social engineering threats may not always be very obvious. Attackers trying to gather information can do it in inconspicuous ways, such as through the following image, taken from <a
+        href="https://www.epicreads.com/blog/ya-fantasy-title-generator/">EpicReads</a>:
+    <div class="container-fluid image-div">
+      <img src="../Images/ASOWAR_TitleGenerator_Final6.jpg" alt="Example of Gathering Information">
+    </div>
+    This image, along with countless others, encourages users to post and share personal details. Users are asked to match their personal attributes/details, in this case, their zodiac sign, favorite genre, and the last digit of their phone number,
+    to create their own personalized story name, and are often encouraged to post results.
+    <br>
+    While most of these images do not have malicious intent, they can still be used to collect data on those who post their results.
+    <br>
+    Children who are not aware of online safety may choose to share their information, giving up this information to attackers. With this information, attackers are able to effectively create scams or other attacks to trick your child into revealing
+    their login information.
+    <br>
+    With the above example, the attacker would be able to figure out a range of possible dates for your child’s birthday, as well as their favorite genre. If they want to converse with your child, they could use this information to build a
+    relationship and appear trustworthy, encouraging your child to open up more, by pretending to have the same zodiac sign or a common favorite genre. If they find out through conversation that your child plays a popular online mobile game, they can
+    create an attack that claims to give free prizes for that game, which would be more effective than a nondescript phishing email.
+    <br>
+    With access to your child’s accounts, they may be able to impersonate them, trick their friends into giving up information, <a href="../../Doxxing/HTML/index.html">doxx</a> someone, or spread
+    <a href="../../Malware/HTML/index.html">malware</a> to your child’s contacts.
+    <br>
+    Social engineering attacks can appear in many different forms and can be very hard to spot. It is important to educate your child about social engineering so they can keep themselves safe even without your supervision. With sufficient awareness,
+    your child can avoid these attacks.
+    </p>
+  </div>
+
+  <hr class="gradient">
+
+  <!--- Types of Attacks --->
+  <div class="container-fluid align-items-center justify-content-center">
+    <h1>Types of Attacks</h1>
+
+    <h2>Baiting</h2>
+    <p>
+      This type of attack relies on the curiosity/greed of victims to steal information or infect systems with <a href="../../Malware/HTML/index.html">malware</a>. It can happen through the use of physical media, where flash drives are left in
+      obvious spots for the victim to pick up and insert into their devices.
+      <br>
+      As children are more naive and trusting, they may pick up a flash drive and insert it into their device, resulting in malware being installed on their computer. Malware can give attackers access to data on the victim’s device, and even deny
+      victims access to their own data. Sensitive documents stored on the computer will be accessible by the attacker, which can result in identity theft.
+      <br>
+      Additionally, victims may be baited by the false promise of free or cheaper items/services, given in exchange for personal information, such as their full name, address, or credit card details (which children may take from their parents without
+      consent).
+      <br>
+      Children may be scammed into giving up details, especially in exchange for in-game rewards, as they may not be able to tell that they are being tricked. Depending on how the attack is carried out, attackers may potentially obtain your credit
+      card details, allowing them to use your account for purchases. It is important for them to know that free/cheaper in-game items, especially when coming from 3rd-party and other unofficial websites, are likely to be a scam. This way, you can
+      reduce the chances that your family becomes a victim of a scam. For other dangers of online gaming, <a href="../../Gaming/HTML/index.html">click here</a>.
+    </p>
+
+    <hr class="gradient">
+
+    <h2>Phishing</h2>
+    <p>
+      This attack tries to trick victims into giving up their login details or installing malware on their devices. The attacker tries to impersonate any legitimate organizations, or a familiar face, such as a friend or family member. The victims are
+      sent a link that directs them to a seemingly innocuous website, where they are asked to enter their personal details. After doing so, the information entered is sent to the attackers, giving them access to the victim’s account.
+      <br>
+      This usually happens in one of two ways, by creating a feeling of fear (tricking the victim into believing their login details have been compromised), or by creating a feeling of excitement (misleading the victim into believing they have won a
+      prize). Regardless, the victim is tricked into entering personal information, such as their full name, phone number, or login details, which is sent to the attacker. With this information, attackers can impersonate your child and carrying out
+      phishing attempts on their contacts. This can cause additional distress to your child, who may be blamed by others who fall for these attacks, resulting in a damaged relationship.
+      <br>
+      As children may be less observant, they may not notice the difference between a real and fake link. Thus, they may enter their login information without realizing it is being sent to the attackers. To avoid this attack, encourage children to
+      check the email address, and URL of the link, or to go to the organization’s website and change their password directly. If they are unsure, encourage them to ask you for help.
+      <br>
+      <a href="https://phishingquiz.withgoogle.com">Test your ability to spot phishing attempts here!</a>
+    </p>
+
+    <hr class="gradient">
+
+    <h2>Scareware</h2>
+    <p>
+      This attack relies on creating a sense of fear in victims, through false alarms and threats. Often, the victim will see a pop-up banner, or be led to a website, which states something similar to:
+      <br>
+    <div class="alert alert-danger" role="alert">
+      Your computer may be infected with harmful spyware programs! Click here to download xyz program and remove it.
+    </div>
+    <br>
+    Clicking the link and installing the program results in malware being downloaded and installed on the device, giving the attacker access to the victim’s device.
+    <br>
+    Children may be afraid and believe that their device is actually infected with malware. As they may fear getting into trouble with their parents, they may click on the link to try and resolve the ‘problem’ themselves, resulting in them
+    downloading <a href="../../Malware/HTML/index.html">malicious programs</a>. To avoid this attack, never download software from unknown sources, and use trusted antivirus software to scan your device.
+    </p>
+  </div>
+
+  <hr class="gradient">
+
+  <!--- Additional Tips --->
+  <div class="container-fluid align-items-center justify-content-center">
+    <h1>Additional Tips</h1>
+    <p>While it may seem daunting and scary, being wary of unknown people and taking some precautions will make it harder for attackers to successfully affect you and your child. Keep in mind the following tips:
+    </p>
+    <ul>
+      <li>Use <a href="../../Multi-Factor Authentication/HTML/index.html">multi-factor authentication</a>, which makes it harder for attackers to access your account even with your login details. </li>
+      <li>Be wary of offers that seem too good to be true</li>
+      <li>Use antivirus software and scan your device frequently</li>
+      <li>Do not click on unknown and unexpected links and attachments</li>
+      <li>Avoid sharing personal information with strangers online</li>
+    </ul>
+  </div>
+
+  <hr class="gradient">
+
+  <!--- Quiz --->
+  <div class="container-fluid align-items-center justify-content-center quiz-container">
+
+    <h1>Quick Quiz</h1>
+    <p>Think you know it all? Test out your knowledge with this quiz!</p>
+    <p>You can review the questions with explanations at the end of the quiz.</p>
+    <div class="play-btn">
+      <a class="btn btn-dark btn-lg" href="game.html">Play</a>
+    </div>
+
+  </div>
+
+  <hr class="gradient">
+
+  <!--- References --->
+  <div class="container-fluid align-items-center justify-content-center references">
+    <h1>References</h1>
+    <ul>
+      <li><a href="https://www.kaspersky.com/resource-center/definitions/what-is-social-engineering">What is Social Engineering</a></li>
+      <li><a href="https://www.webroot.com/us/en/resources/tips-articles/what-is-social-engineering">More about Social Engineering</a></li>
+      <li><a href="https://www.csa.gov.sg/singcert/publications/social-engineering-attacks">Social Engineering Examples</a></li>
+      <li><a href="https://terranovasecurity.com/top-examples-of-phishing-emails/">Example of Phishing Emails</a></li>
+    </ul>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+[{
+    "question": "While playing an online game, a link appears on the screen, with no other instructions or words. The link is not related to the current game in any way. Should you click the link?",
+    "choice1": "Yes",
+    "choice2": "No",
+    "answer": 2
+  },
+  {
+    "question": "While playing an online game, a stranger contacts you and offers to give you some limited-edition virtual item in exchange for real-life money, at a much cheaper rate than what you would pay in the store. Should you buy the item from them instead?",
+    "choice1": "Yes",
+    "choice2": "No",
+    "answer": 2
+  },
+  {
+    "question": "It is not okay to share personal information with online friends, especially if you have never met them before.",
+    "choice1": "Yes",
+    "choice2": "No",
+    "answer": 1
+  },
+  {
+    "question": "It is okay to buy something for yourself in-game without your parent’s permission, with their credit card, especially if its only a few dollars.",
+    "choice1": "Yes",
+    "choice2": "No",
+    "answer": 2
+  },
+  {
+    "question": "If you are meeting online friends in person for the first time, you should go with your parents.",
+    "choice1": "Yes",
+    "choice2": "No",
+    "answer": 1
+  }
+]

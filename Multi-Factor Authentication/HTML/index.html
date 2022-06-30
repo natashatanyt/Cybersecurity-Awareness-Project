@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>MFA</title>
+
+  <!-- Stylesheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="../../CSS/styles.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!--- Sticky Top--->
+  <nav class="navbar sticky-top navbar-expand-xl navbar-light bg-light">
+    <div class="nav-container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="navbar-nav">
+          <a class="nav-link" href="../../Main Page/index.html">Home</a>
+          <a class="nav-link" href="../../Clickbait/HTML/index.html">Clickbait</a>
+          <a class="nav-link" href="../../Doxxing/HTML/index.html">Doxxing</a>
+          <a class="nav-link" href="../../Gaming/HTML/index.html">Gaming</a>
+          <a class="nav-link" href="../../Malware/HTML/index.html">Malware</a>
+          <a class="nav-link active" aria-current="page" href="../../Multi-Factor Authentication/HTML/index.html">MFA</a>
+          <a class="nav-link" href="../../Password Safety/HTML/index.html">Passwords</a>
+          <a class="nav-link" href="../../Social Engineering/HTML/index.html">Social Engineering</a>
+          <a class="nav-link" href="../../Social Media/HTML/index.html">Social Media</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!--- Introduction --->
+  <div class="container-fluid align-items-center justify-content-center introduction">
+    <h1>Introduction</h1>
+
+    <p>
+      To demonstrate the importance of multi-factor authentication, imagine you own a safe that stores many important documents, which you would obviously want to keep safe and out of the hands of criminals.
+      <br>
+      Now, imagine a thief has figured out the combination and has broken into your house. Without any additional security, it is easy for the thief to break into the safe.
+      <br>
+      However, if your safe requires an additional level of verification, such as your fingerprint, it is much harder for the thief to break into the safe without your knowledge.
+    </p>
+  </div>
+
+  <hr class="gradient">
+
+  <!--- MFA --->
+  <div class="container-fluid align-items-center justify-content-center">
+    <h1>Multi-Factor Authentication</h1>
+    <p>
+      Multi-factor authentication (MFA) requires a user to use two or more verification methods to prove their identity and gain access to their account. It provides many different ways for a user to verify themselves and can take place with either
+      physical or digital tokens. After entering the username and password, users are prompted to use another method to verify their accounts. Although it increases the amount of time needed to log in to accounts, it significantly increases the
+      security of one’s account, in a low-cost yet effective manner.
+      <br>
+      Children tend to use simple passwords that are easy to remember. This can make it easy for attackers to figure out their passwords and gain access to their accounts and their information. Even if your child uses a strong password, their login
+      details may be leaked due to security breaches as a result of the organization’s poor security practices. With MFA, this makes it harder for attackers to gain access to your child’s account as they need the extra verification step.
+      <br>
+      Although you may believe that your child’s accounts have nothing of importance, attackers can impersonate them, trick others into giving up their personal information, or try to extort your child for money.
+      <a href="https://www.secureworks.com/blog/ransoms-demanded-for-hijacked-instagram-accounts">Recently, there has been a rise in extortion cases on Instagram, which is very popular among youths</a>. This attack targets both business and personal
+      accounts, which means your child is a potential victim. After tricking your child into giving up their details, attackers will log them out of their account, demanding payment, often in bitcoin, before the account is released to them. If your
+      child wants to pay off the ransom, they may use your credit card to do so, which can result in monetary losses. If this happens to your child, encourage them to inform the organization and not to pay the ransom.
+      <br>
+      Additionally, for older children who have bank accounts, Singpass, and other more sensitive accounts, if they have a weak password, attackers can easily gain access to their accounts, especially if they do not have MFA enabled. This gives
+      attackers access to their accounts and their information, allowing attackers to act with their credentials, stealing their identity.
+    </p>
+  </div>
+
+  <hr class="gradient">
+
+  <!--- Types of Authentication --->
+  <div class="container-fluid align-items-center justify-content-center">
+    <h1>Types of Authentication</h1>
+    <h2>Hardware Tokens</h2>
+    <p>
+      One of the most well-known methods of authentication. Users are given a physical device, which randomly generates a code when needed by the user. When authentication is needed, the user simply needs to look at the code on the token and enter
+      it, to log in to their account.
+    </p>
+
+    <h2>Software Tokens</h2>
+    <p>
+      This is similar to hardware tokens, except an application is installed on the user’s device. Otherwise, it functions the same way as a hardware token.
+    </p>
+
+    <h2>SMS/Voice-Based</h2>
+    <p>
+      This digital method of verification requires a mobile number to be linked to the user’s account. The organization generates a code and sends it to the user by SMS, or by calling them and a digital voice reading out the numbers.
+    </p>
+
+    <h2>Push Notifications</h2>
+    <p>This method is becoming increasingly common. When users wish to log in to an account, often with an associated application installed on their phone, a notification is sent to their phone, allowing users to click and approve the process. This
+      requires the device to be connected to the Internet. </p>
+
+    <h2>Biometric</h2>
+    <p>This method of verification is fairly secure, as it requires the user’s biometrics, such as their fingerprint, or facial recognition, in addition to their username and password. </p>
+
+  </div>
+
+  <hr class="gradient">
+
+  <!--- Quiz --->
+  <div class="container-fluid align-items-center justify-content-center quiz-container">
+
+    <h1>Quick Quiz</h1>
+    <p>Think you know it all? Test out your knowledge with this quiz!</p>
+    <p>You can review the questions with explanations at the end of the quiz.</p>
+    <div class="play-btn">
+      <a class="btn btn-dark btn-lg" href="game.html">Play</a>
+    </div>
+
+  </div>
+
+  <hr class="gradient">
+
+  <!--- References --->
+  <div class="container-fluid align-items-center justify-content-center references">
+    <h1>References</h1>
+    <ul>
+      <li><a href="https://www.techtarget.com/searchsecurity/definition/two-factor-authentication">What is Two-Factor Authentication</a></li>
+      <li><a href="https://us.norton.com/internetsecurity-privacy-what-is-2fa.html">Additional Information about 2FA</a></li>
+  </div>
+</body>
+
+</html>

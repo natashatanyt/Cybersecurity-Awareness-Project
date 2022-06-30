@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>MFA Quiz Review</title>
+  <!-- Stylesheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="../../CSS/review.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <div class="explanation-container container flex-column">
+    <h1>Quiz Review</h1>
+
+    <p class="review-desc">You can review the questions and correct answers here! The correct answer is highlighted in green and an explanation is provided after the question.</p>
+
+    <!--- Question 1--->
+    <div class="qn-container">
+      <h2 class="question">Which of the following statements are true about OTPs?</h2>
+      <div class="choice-container">
+        <p class="choice-prefix col-1">A</p>
+        <p class="choice-text " data-number="1">It can be received with a physical or digital token</p>
+      </div>
+      <div class="choice-container">
+        <p class="choice-prefix col-1">B</p>
+        <p class="choice-text" data-number="2">It is generated periodically</p>
+      </div>
+      <div class="choice-container">
+        <p class="choice-prefix col-1">C</p>
+        <p class="choice-text" data-number="3">It can be made of alphanumeric characters</p>
+      </div>
+      <div class="choice-container correct">
+        <p class="choice-prefix col-1">D</p>
+        <p class="choice-text" data-number="4">All of the above</p>
+      </div>
+      <div class="explanation">
+        <p>
+          OTPs are meant to be difficult for attackers to gain access to. Hence, it can be sent through SMS, email, or applications. Each time it is needed, a new code is generated, preventing attackers from being able to log in with old codes. Some
+          codes are made of a combination of letters and numbers, which makes it more difficult for attackers to guess.
+        </p>
+      </div>
+
+      <hr class="gradient">
+    </div>
+
+    <!--- Question 2 --->
+    <div class="qn-container">
+      <h2 class="question">Which of the following is not an example of MFA?</h2>
+      <div class="choice-container correct">
+        <p class="choice-prefix col-1">A</p>
+        <p class="choice-text" data-number="1">Entering your password twice</p>
+      </div>
+      <div class="choice-container">
+        <p class="choice-prefix col-1">B</p>
+        <p class="choice-text" data-number="2">A password and SMS OTP</p>
+      </div>
+      <div class="choice-container">
+        <p class="choice-prefix col-1">C</p>
+        <p class="choice-text" data-number="3">An access key card and passcode</p>
+      </div>
+      <div class="choice-container">
+        <p class="choice-prefix col-1">D</p>
+        <p class="choice-text" data-number="4">All of the above</p>
+      </div>
+      <div class="explanation">
+        <p>
+          Entering your password twice is a type of verification method, as it verifies that the user entered the correct information. The other two examples involve two different methods of verification, including both physical and virtual methods.
+        </p>
+      </div>
+
+      <hr class="gradient">
+    </div>
+
+    <!--- Question 3 --->
+    <div class="qn-container">
+      <h2 class="question">Other than MFA, how can you keep your account safe?</h2>
+      <div class="choice-container">
+        <p class="choice-prefix col-1">A</p>
+        <p class="choice-text" data-number="1">A strong password</p>
+      </div>
+      <div class="choice-container">
+        <p class="choice-prefix col-1">B</p>
+        <p class="choice-text" data-number="2">Do not use the same password everywhere</p>
+      </div>
+      <div class="choice-container">
+        <p class="choice-prefix col-1">C</p>
+        <p class="choice-text" data-number="3">Keep your accounts to yourself</p>
+      </div>
+      <div class="choice-container correct">
+        <p class="choice-prefix col-1">D</p>
+        <p class="choice-text" data-number="4">All of the above</p>
+      </div>
+      <div class="explanation">
+        <p>
+          Multi-factor authentication is a good way to keep your account safe, but cannot be solely relied on to keep your accounts safe. To ensure your account stays secure, you should use a unique, strong password, that has not been used for other
+          accounts. Additionally, do not share your account with others as you do not know if they will share it or misuse it.
+        </p>
+      </div>
+
+      <hr class="gradient">
+    </div>
+
+    <!--- Question 4 --->
+    <div class="qn-container">
+      <h2 class="question">Why is MFA important?</h2>
+      <div class="choice-container">
+        <p class="choice-prefix col-1">A</p>
+        <p class="choice-text" data-number="1">It is not important</p>
+      </div>
+      <div class="choice-container correct">
+        <p class="choice-prefix col-1">B</p>
+        <p class="choice-text" data-number="2">It increases the security of your account</p>
+      </div>
+      <div class="choice-container">
+        <p class="choice-prefix col-1">C</p>
+        <p class="choice-text" data-number="3">It increases the time needed to log in</p>
+      </div>
+      <div class="choice-container">
+        <p class="choice-prefix col-1">D</p>
+        <p class="choice-text" data-number="4">None of the above</p>
+      </div>
+      <div class="explanation">
+        <p>
+          MFA is important as it increases the security of your account. It prevents other people from logging in as they need access to verification methods that only you have access to. Even if attackers were to obtain your username and password,
+          they would not be able to access your account.
+        </p>
+      </div>
+
+      <hr class="gradient">
+    </div>
+
+    <!--- Question 5 --->
+    <div class="qn-container">
+      <h2 class="question">If attackers obtain your password, what can they do?</h2>
+      <div class="choice-container">
+        <p class="choice-prefix col-1">A</p>
+        <p class="choice-text" data-number="1">Log in to your accounts</p>
+      </div>
+      <div class="choice-container">
+        <p class="choice-prefix col-1">B</p>
+        <p class="choice-text" data-number="2">Pretend to be you online</p>
+      </div>
+      <div class="choice-container">
+        <p class="choice-prefix col-1">C</p>
+        <p class="choice-text" data-number="3">Find out my personal information</p>
+      </div>
+      <div class="choice-container correct">
+        <p class="choice-prefix col-1">D</p>
+        <p class="choice-text" data-number="4">All of the above</p>
+      </div>
+      <div class="explanation">
+        <p>
+          With access to your accounts, the attackers can impersonate you, act with your credentials, and attempt to trick your contacts into falling for phishing attempts. Additionally, if there is information on those accounts you want to keep
+          hidden from others, attackers will have access to it and could potentially post it publicly online for others to see or use to blackmail you.
+        </p>
+      </div>
+
+      <hr class="gradient">
+    </div>
+
+    <div class="buttons">
+
+      <a class="btn btn-outline-dark" href="game.html">Retry</a>
+      <a class="btn btn-outline-dark" href="index.html">Exit</a>
+    </div>
+
+  </div>
+</body>
+
+</html>

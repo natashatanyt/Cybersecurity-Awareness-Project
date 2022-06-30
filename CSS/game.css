@@ -1,3 +1,7 @@
+html, body {
+  height: 100%;
+}
+
 h1 {
   font-size: 4.5rem;
 }
@@ -13,9 +17,8 @@ p {
 
 .container {
   width: 90%;
-  height: 80vh;
-  max-width: 85rem;
-  margin-top: 2rem;
+  max-width: 90rem;
+  margin-top: 3%;
 }
 
 .choice-container {
@@ -35,7 +38,7 @@ p {
 }
 
 .choice-prefix {
-  padding: 1.5rem 2.5rem;
+  padding: 1.5rem 0;
   background-color: #000;
   text-align: center;
   color: white;
@@ -46,6 +49,7 @@ p {
   padding: auto;
   margin: auto;
   padding-left: 1.2rem;
+  line-height: 6rem;
   width: 100%;
 }
 

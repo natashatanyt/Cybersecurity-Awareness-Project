@@ -1,0 +1,41 @@
+[{
+    "question": "What information is leaked when you are doxxed?",
+    "choice1": "Your address",
+    "choice2": "Your phone number",
+    "choice3": "Photographs of yourself",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+  {
+    "question": "What should you do if your friend has been doxxed?",
+    "choice1": "Report the post",
+    "choice2": "Inform your friend that they have been doxxed",
+    "choice3": "Do not share the post",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+  {
+    "question": "How do you prevent yourself from being doxxed?",
+    "choice1": "Set your social media privacy settings to the highest possible",
+    "choice2": "Use the same username on all platforms",
+    "choice3": "Publicly share information about yourself online",
+    "choice4": "None of the above",
+    "answer": 1
+  },
+  {
+    "question": "Which of these is an example of doxxing?",
+    "choice1": "Posting a video of a dangerous driver to warn people to drive safely",
+    "choice2": "Posting contact information of a celebrity, encouraging others to threaten/attack them",
+    "choice3": "Publishing information of a missing person to try and find them",
+    "choice4": "None of the above",
+    "answer": 2
+  },
+  {
+    "question": "Which of the following are reasons why people are doxxed?",
+    "choice1": "Posting racist comments online",
+    "choice2": "Defeating others in a game",
+    "choice3": "Speaking out about controversial topics",
+    "choice4": "All of the above",
+    "answer": 4
+  }
+]

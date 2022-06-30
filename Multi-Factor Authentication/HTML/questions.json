@@ -1,0 +1,41 @@
+[{
+    "question": "Which of the following statements are true about OTPs?",
+    "choice1": "It can be received with a physical or digital token",
+    "choice2": "It is generated periodically",
+    "choice3": "It can be made of alphanumeric characters",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+  {
+    "question": "Which of the following is not an example of MFA?",
+    "choice1": "Entering your password twice",
+    "choice2": "A password and SMS OTP",
+    "choice3": "An access key card and passcode",
+    "choice4": "All of the above",
+    "answer": 1
+  },
+  {
+    "question": "Other than MFA, how can you keep your account safe?",
+    "choice1": "A strong password",
+    "choice2": "Do not use the same password everywhere",
+    "choice3": "Keep your accounts to yourself",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+  {
+    "question": "Why is MFA important?",
+    "choice1": "It is not important",
+    "choice2": "It increases the security of your account",
+    "choice3": "It increases the time needed to log in",
+    "choice4": "None of the above",
+    "answer": 2
+  },
+  {
+    "question": "If attackers obtain your password, what can they do?",
+    "choice1": "Log in to your accounts",
+    "choice2": "Pretend to be you online",
+    "choice3": "Find out my personal information",
+    "choice4": "All of the above",
+    "answer": 4
+  }
+]

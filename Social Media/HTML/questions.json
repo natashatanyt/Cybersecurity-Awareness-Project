@@ -1,0 +1,33 @@
+[{
+    "question": "What information should you never tell strangers?",
+    "choice1": "Your home address",
+    "choice2": "Your full name",
+    "choice3": "Photos of yourself",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+  {
+    "question": "How can you ensure that the person online is who they claim to be?",
+    "choice1": "They send pictures of themselves",
+    "choice2": "You cannot tell",
+    "choice3": "You have the same online friends",
+    "choice4": "They are nice",
+    "answer": 2
+  },
+  {
+    "question": "What is the best way to protect my data online?",
+    "choice1": "Do not use the internet",
+    "choice2": "Accept anyone who requests to be my friend",
+    "choice3": "Turn on the highest privacy settings",
+    "choice4": "Do not post anything",
+    "answer": 3
+  },
+  {
+    "question": "When is it okay to meet up with an internet friend?",
+    "choice1": "With a trusted adult in a public place",
+    "choice2": "By yourself in a public place",
+    "choice3": "At their house",
+    "choice4": "At your house",
+    "answer": 1
+  }
+]

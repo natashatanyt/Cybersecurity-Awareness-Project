@@ -36,7 +36,6 @@ hr.gradient {
   height: 3px;
   margin: 2rem auto;
   width: 50%;
-  background-image: linear-gradient(to right, transparent, #002366, transparent);
 }
 
 li {
@@ -93,6 +92,10 @@ img {
   width: auto;
 }
 
+.video {
+  text-align: center;
+}
+
 /* Body Images */
 .image-div {
   text-align: center;
@@ -112,4 +115,8 @@ img {
 /* References */
 .references {
   margin-bottom: 10%;
+}
+
+.reference-div {
+  width: 50%;
 }

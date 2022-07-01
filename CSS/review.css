@@ -1,59 +1,53 @@
+html, body {
+  height: 100%;
+}
+
 h1 {
   font-size: 4.5rem;
 }
 
+h2 {
+  font-size: 2rem;
+  margin: 1.5rem 0;
+}
+
 p {
   margin-bottom: 0;
-  font-size: 1.5rem;
-}
-
-hr.gradient {
-  border: 0;
-  height: 3px;
-  margin: 2rem auto;
-  width: 50%;
-  background-image: linear-gradient(to right, transparent, #002366, transparent);
-}
-
-a {
-   text-decoration: none;
 }
 
 .container {
   width: 95%;
-  margin-top: 2rem;
-}
-
-.qn-container {
-  margin: 0.7rem 0;
-}
-
-.question{
-  margin-bottom: 1rem;
+  max-width: 90rem;
+  margin-top: 3%;
 }
 
 .choice-container {
   display: flex;
   margin-bottom: 0.5rem;
   width: 100%;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   border: 0.1rem solid rgb(0, 0, 0, 0.5);
   background-color: white;
+  align-items: center;
+}
+
+.choice-container:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(0, 0, 0, 0.5);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
 }
 
 .choice-prefix {
   padding: 1rem 0;
-  background-color: #000;
   text-align: center;
-  color: white;
   font-weight: bold;
 }
 
 .choice-text {
-  padding: auto;
-  margin: auto;
+  padding: 1rem 0;
   padding-left: 1.2rem;
-  width: 100%;
+  width: 80%;
 }
 
 .correct {
@@ -65,13 +59,60 @@ a {
   background-color: #dc3545;
 }
 
-.buttons {
-  text-align: center;
-  margin-bottom: 5rem;
+/* HUD */
+#hud {
+  display: flex;
+  justify-content: space-between;
 }
 
-.btn-outline-dark{
-  width: 33%;
-  font-size: 1.5rem;
-  margin: 1rem 2rem;
+.hud-prefix {
+  text-align: center;
+  font-size: 3rem;
+  color: #000;
+}
+
+.hud-main-text {
+  text-align: center;
+}
+
+.hud-box {
+  width: 25%;
+}
+
+#progressBar {
+  width: 100%;
+  height: 4rem;
+  border: 0.3rem solid #000;
+  margin-top: 1rem;
+}
+
+#progressBarFull {
+  height: 3.5rem;
+  background-color: #000;
+}
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+    h1 {
+      font-size: 3rem;
+    }
+
+    .hud-prefix {
+      font-size: 2rem;
+    }
+
+    .hud-box {
+      width: 40%;
+    }
+
+    .choice-prefix {
+      padding: 1rem auto;
+    }
+
+    .choice-text {
+      border-left: 1px solid;
+    }
 }

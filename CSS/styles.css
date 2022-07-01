@@ -24,7 +24,7 @@ p {
 
 br {
   display: block;
-  margin: 0.7rem 0;
+  margin: 1rem 0;
 }
 
 a {
@@ -119,4 +119,16 @@ img {
 
 .reference-div {
   width: 50%;
+}
+
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+    br {
+      margin: 2rem 0;
+    }
 }

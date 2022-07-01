@@ -34,7 +34,22 @@ a {
 
 
 .btn-outline-dark{
-  width: 22%;
+  width: 33%;
   font-size: 3rem;
   margin: 2rem 0;
+}
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+    h1 {
+      font-size: 3.5rem;
+    }
+
+    .btn-outline-dark{
+      width: 75%;
+      font-size: 2rem;
+    }
 }

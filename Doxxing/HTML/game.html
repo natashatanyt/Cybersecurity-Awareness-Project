@@ -18,7 +18,7 @@
     <div class="container">
       <div class"fluid-container align-items-center justify-content-center">
         <div id="hud">
-          <div id="hud-item">
+          <div id="hud-item" class = "hud-box">
             <p id="progressText" class="hud-prefix">
               Question
             </p>
@@ -26,15 +26,17 @@
               <div id="progressBarFull"></div>
             </div>
           </div>
-          <div id="hud-item">
+
+          <div id="hud-item" class = "hud-box">
             <p class="hud-prefix">
               Score
             </p>
-            <h1 class="hud-main-text" id="score">
+            <h1 class="hud-main-text hud-prefix" id="score">
               0
             </h1>
           </div>
         </div>
+
         <h2 id="question">What is the answer to this questions?</h2>
         <div class="choice-container">
           <p class="choice-prefix col-1">A</p>
@@ -46,7 +48,7 @@
         </div>
         <div class="choice-container">
           <p class="choice-prefix col-1">C</p>
-          <p class="choice-text col-1" data-number="3">Choice 3</p>
+          <p class="choice-text" data-number="3">Choice 3</p>
         </div>
         <div class="choice-container">
           <p class="choice-prefix col-1">D</p>

@@ -159,7 +159,6 @@ hr.gradient {
 
   .navbar {
     padding: 0.7rem 5%;
-    background-color: #e3e2da;
   }
 
   .navbar-toggler {
@@ -177,8 +176,6 @@ hr.gradient {
 
   .card {
     margin: 1rem 0 1rem;
-    border-color: black;
-    background-color: #fbf9fa;
     width: 100%;
   }
 }

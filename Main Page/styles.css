@@ -137,7 +137,11 @@ hr.gradient {
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
   body {
-    font-size: 1.6rem;
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 3.2rem;
   }
 
   .navbar {

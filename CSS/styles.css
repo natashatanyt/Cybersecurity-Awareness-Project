@@ -53,8 +53,17 @@ img {
 
 /* Navbar Styles */
 .navbar {
-  padding: 1rem 3%;
-  background-color: #e3e2da;
+  padding: 0.7rem 3%;
+  background-color: #b1c2cf;
+}
+
+.navbar-brand {
+  margin-left: 1rem;
+  font-size: 1.5rem;
+}
+
+.navbar-toggler {
+  font-size: 1.4rem;
 }
 
 .nav-item {
@@ -63,6 +72,7 @@ img {
 
 .nav-link {
   font-weight: 200;
+  text-decoration: none;
 }
 
 .dropdown-content {
@@ -106,6 +116,15 @@ img {
   font-size: 1.5rem;
   width: 20%;
   margin: 2rem 0 0;
+}
+
+.btn-dark {
+  background-color: #b1c2cf;
+  color: black;
+}
+
+.btn-dark:hover {
+  background-color: #6b818d;
 }
 
 /* References */

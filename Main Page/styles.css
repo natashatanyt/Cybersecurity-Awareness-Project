@@ -26,7 +26,7 @@ a {
 }
 
 br {
-  display: block !important;
+  display: block;
   margin: 0.7rem 0;
 }
 
@@ -46,11 +46,16 @@ hr.gradient {
 /* Navbar Styles */
 .navbar {
   padding: 0.7rem 3%;
-  background-color: #e3e2da;
+  background-color: #b1c2cf;
 }
 
-.navbar-toggler{
+.navbar-toggler {
   font-size: 1.4rem;
+}
+
+.navbar-brand {
+  margin-left: 1rem;
+  font-size: 1.5rem;
 }
 
 .nav-item {
@@ -100,7 +105,6 @@ hr.gradient {
   border-color: black;
   background-color: #fbf9fa;
   width: 46%;
-
 }
 
 .card-header {
@@ -130,6 +134,15 @@ hr.gradient {
   padding: 0.7rem 1rem;
 }
 
+.btn-dark {
+  background-color: #b1c2cf;
+  color: black;
+}
+
+.btn-dark:hover {
+  background-color: #6b818d;
+}
+
 /* Other References */
 .other-references {
   margin-bottom: 10%;
@@ -149,7 +162,7 @@ hr.gradient {
     background-color: #e3e2da;
   }
 
-  .navbar-toggler{
+  .navbar-toggler {
     font-size: 2rem;
   }
 

@@ -142,10 +142,14 @@ img {
   text-align: center;
 }
 
-.phishing-example{
+.phishing-example {
   width: 50%;
   margin: 0 0 1.5rem;
   padding: 0;
+}
+
+.phishing-elaboration{
+  width: 75%;
 }
 
 .modal-btn{
@@ -176,8 +180,12 @@ img {
     padding: 0.7rem 5%;
   }
 
+  .navbar-brand {
+    font-size: 4rem;
+  }
+
   .navbar-toggler {
-    font-size: 2rem;
+    font-size: 4rem;
   }
 
   .nav-item {
@@ -185,12 +193,16 @@ img {
   }
 
   .nav-link {
-    font-size: 1.5rem;
+    font-size: 3rem;
     text-decoration: none;
   }
 
   .btn {
     font-size: 2.5rem;
+  }
+
+  .image-div {
+    width: 100%;
   }
 
   .phishing-example{

@@ -128,17 +128,21 @@
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-xl">
+      <div class="modal-dialog modal-fullscreen">
         <div class="modal-content">
           <div class="modal-body">
-            <div class="phishing-email">
-              <img src="../Images/Phishing Elaborated.png" class="phishing-example" alt="">
+            <div class="row">
+              <div class="phishing-email col">
+                <img src="../Images/Phishing Elaborated.png" class="phishing-elaboration" alt="">
+              </div>
+              <div class="col">
+                <ul>
+                  <li>The sender's email is misspelt - "jaosn" instead of "jason"</li>
+                  <li>The content of the email is about answers for upcoming exams, which would make you want to click on it.</li>
+                  <li>The link is "http", which is insecure, and you do not know where the link goes to</li>
+                </ul>
+              </div>
             </div>
-            <ul>
-              <li>The sender's email is misspelt - "jaosn" instead of "jason"</li>
-              <li>The content of the email is about answers for upcoming exams, which would make you want to click on it.</li>
-              <li>The link is "http", which is insecure, and you do not know where the link goes to</li>
-            </ul>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-dark modal-btn" data-bs-dismiss="modal">Close</button>

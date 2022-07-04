@@ -8,6 +8,7 @@ body {
   font-size: 62.5%;
   font-size: 1.5rem;
   background-color: #fbf9fa;
+  line-height: 2rem;
 }
 
 h1 {
@@ -19,12 +20,8 @@ h2 {
   font-weight: bolder;
 }
 
-p {
-  line-height: 2rem;
-}
-
 br {
-  display: block !important;
+  display: block;
   margin: 1rem 0;
 }
 
@@ -139,10 +136,16 @@ img {
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
   body {
     font-size: 2.2rem;
+    line-height: 2.3rem;
+  }
+
+  h1 {
+    font-size: 4rem;
   }
 
   h2 {
-    font-size: 3.2rem;
+    font-size: 2.5rem;
+    font-weight: bold;
   }
 
   br {
@@ -165,5 +168,13 @@ img {
   .nav-link {
     font-size: 1.5rem;
     text-decoration: none;
+  }
+
+  .btn {
+    font-size: 2.5rem;
+  }
+
+  .phishing-example{
+    width: 100%;
   }
 }

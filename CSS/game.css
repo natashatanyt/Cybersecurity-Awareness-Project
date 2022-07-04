@@ -1,5 +1,11 @@
-html, body {
-  height: 100%;
+body {
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  font-size: 1.5rem;
+  background-color: #fbf9fa;
 }
 
 h1 {
@@ -26,7 +32,7 @@ p {
   margin-bottom: 0.5rem;
   width: 100%;
   font-size: 1.7rem;
-  border: 0.1rem solid rgb(0, 0, 0, 0.5);
+  border: 0.1rem solid rgb(0, 0, 0);
   background-color: white;
   align-items: center;
 }
@@ -48,6 +54,7 @@ p {
   padding: 1rem 0;
   padding-left: 1.2rem;
   width: 80%;
+  border-left: 1px solid;
 }
 
 .correct {

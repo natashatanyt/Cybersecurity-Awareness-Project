@@ -13,6 +13,14 @@ h2 {
 
 p {
   margin-bottom: 0;
+  font-size: 1.7rem;
+}
+
+hr.gradient {
+  border: 0;
+  height: 3px;
+  margin: 2rem auto;
+  width: 50%;
 }
 
 .container {
@@ -89,6 +97,17 @@ p {
 #progressBarFull {
   height: 3.5rem;
   background-color: #000;
+}
+
+.buttons {
+  margin: 3% auto 10%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  font-size: 1.7rem;
+  width: 33%;
 }
 
 @media only screen

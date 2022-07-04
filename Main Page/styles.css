@@ -12,7 +12,14 @@ body {
 }
 
 h1 {
-  font-size: 4.3rem;
+  font-size: 3.5rem;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: bolder;
+  margin-top: 2.5rem;
 }
 
 p {
@@ -83,17 +90,17 @@ hr.gradient {
 
 .introduction-title {
   padding: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 /* Topics */
 .topics {
-  margin: 1rem 0 2rem;
+  margin: 1rem 0;
 }
 
 .topics-title {
   padding: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .topics-row {

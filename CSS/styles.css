@@ -18,6 +18,7 @@ h1 {
 h2 {
   font-size: 1.8rem;
   font-weight: bolder;
+  margin-top: 2.5rem;
 }
 
 br {
@@ -39,7 +40,7 @@ hr.gradient {
 }
 
 li {
-  margin: 0.2rem 0;
+  margin: 0.5rem 0.25rem;
 }
 
 img {

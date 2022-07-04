@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+/* Colour Palette: https://colorpalettes.net/color-palette-1358/ */
 body {
   font-family: 'Poppins', sans-serif;
   text-align: left;
@@ -10,8 +11,8 @@ body {
   background-color: #fbf9fa;
 }
 
-h1{
-  font-size: 4.5rem;
+h1 {
+  font-size: 4.3rem;
 }
 
 p {
@@ -25,7 +26,7 @@ a {
 }
 
 br {
-  display:block !important;
+  display: block !important;
   margin: 0.7rem 0;
 }
 
@@ -48,9 +49,8 @@ hr.gradient {
   background-color: #e3e2da;
 }
 
-.navbar-brand {
-  font-size: 1rem;
-  font-weight: 400;
+.navbar-toggler{
+  font-size: 1.4rem;
 }
 
 .nav-item {
@@ -86,7 +86,7 @@ hr.gradient {
   margin: 1rem 0 2rem;
 }
 
-.topics-title{
+.topics-title {
   padding: 0;
   margin-bottom: 2rem;
 }
@@ -100,34 +100,68 @@ hr.gradient {
   border-color: black;
   background-color: #fbf9fa;
   width: 46%;
+
 }
 
-.card-header{
+.card-header {
   background-color: #fbf9fa;
   border: none;
-  margin: 0;
-  padding-bottom: 0;
+  margin: 0.7rem 0 0;
+  padding: 0;
   font-size: 150%;
   font-weight: bold;
 }
 
-.card-text{
+.card-text {
   padding: 0 1rem;
   margin: 0;
+  text-align: justify;
 }
 
-.card-footer{
+.card-footer {
   border: none;
-  margin: 0;
+  margin: 0 0 0.5rem;
   padding-top: 0;
   background-color: #fbf9fa;
 }
 
 .btn {
   font-size: 1.3rem;
+  padding: 0.7rem 1rem;
 }
 
 /* Other References */
-.other-references{
+.other-references {
   margin-bottom: 10%;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  body {
+    font-size: 1.6rem;
+  }
+
+  .navbar {
+    padding: 0.7rem 5%;
+    background-color: #e3e2da;
+  }
+
+  .navbar-toggler{
+    font-size: 2rem;
+  }
+
+  .nav-item {
+    padding: 0 5px;
+  }
+
+  .nav-link {
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+
+  .card {
+    margin: 1rem 0 1rem;
+    border-color: black;
+    background-color: #fbf9fa;
+    width: 100%;
+  }
 }

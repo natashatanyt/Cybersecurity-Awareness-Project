@@ -1,5 +1,11 @@
-html, body {
-  height: 100%;
+body {
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  font-size: 1.5rem;
+  background-color: #fbf9fa;
 }
 
 h1 {
@@ -35,15 +41,8 @@ hr.gradient {
   width: 100%;
   font-size: 1.7rem;
   border: 0.1rem solid rgb(0, 0, 0, 0.5);
-  background-color: white;
+  background-color: #fbf9fa;
   align-items: center;
-}
-
-.choice-container:hover {
-  cursor: pointer;
-  box-shadow: 0 0.4rem 1.4rem 0 rgba(0, 0, 0, 0.5);
-  transform: translateY(-0.1rem);
-  transition: transform 150ms;
 }
 
 .choice-prefix {
@@ -56,11 +55,11 @@ hr.gradient {
   padding: 1rem 0;
   padding-left: 1.2rem;
   width: 80%;
+  border-left: solid 1px;
 }
 
 .correct {
   background-color: #28a745;
-  color: white;
 }
 
 .incorrect {
@@ -110,28 +109,24 @@ hr.gradient {
   width: 33%;
 }
 
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 812px)
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) {
-    h1 {
-      font-size: 3rem;
-    }
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  h1 {
+    font-size: 3rem;
+  }
 
-    .hud-prefix {
-      font-size: 2rem;
-    }
+  .hud-prefix {
+    font-size: 2rem;
+  }
 
-    .hud-box {
-      width: 40%;
-    }
+  .hud-box {
+    width: 40%;
+  }
 
-    .choice-prefix {
-      padding: 1rem auto;
-    }
+  .choice-prefix {
+    padding: 1rem auto;
+  }
 
-    .choice-text {
-      border-left: 1px solid;
-    }
+  .choice-text {
+    border-left: 1px solid;
+  }
 }

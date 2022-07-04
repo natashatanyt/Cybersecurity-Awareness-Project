@@ -60,11 +60,6 @@ img {
   background-color: #e3e2da;
 }
 
-.navbar-brand {
-  font-size: 1rem;
-  font-weight: 400;
-}
-
 .nav-item {
   padding: 0 5px;
 }
@@ -127,6 +122,28 @@ img {
 
 /* Portrait */
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  body {
+    font-size: 1.6rem;
+  }
+
+  .navbar {
+    padding: 0.7rem 5%;
+    background-color: #e3e2da;
+  }
+
+  .navbar-toggler {
+    font-size: 2rem;
+  }
+
+  .nav-item {
+    padding: 0 5px;
+  }
+
+  .nav-link {
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+
   br {
     margin: 2rem 0;
   }

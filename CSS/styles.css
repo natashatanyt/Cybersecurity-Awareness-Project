@@ -181,11 +181,11 @@ img {
   }
 
   .navbar-brand {
-    font-size: 4rem;
+    font-size: 2.5rem;
   }
 
   .navbar-toggler {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .nav-item {
@@ -194,6 +194,7 @@ img {
 
   .nav-link {
     font-size: 3rem;
+    margin: 0.5rem;
     text-decoration: none;
   }
 
@@ -203,6 +204,7 @@ img {
 
   .image-div {
     width: 100%;
+    margin: auto 0;
   }
 
   .phishing-example{

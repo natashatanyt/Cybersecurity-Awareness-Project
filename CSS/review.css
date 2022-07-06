@@ -22,11 +22,8 @@ p {
   font-size: 1.7rem;
 }
 
-hr.gradient {
-  border: 0;
-  height: 3px;
-  margin: 2rem auto;
-  width: 50%;
+.explanation-container {
+  margin: 3rem auto 0;
 }
 
 .container {

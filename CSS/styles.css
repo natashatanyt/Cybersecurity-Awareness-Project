@@ -91,12 +91,13 @@ img {
   width: 33%;
 }
 
-.btn-dark {
-  background-color: #b1c2cf;
-  color: black;
+.btn-outline-dark {
+  border: 1px solid #6b818d;
+  background-color: #fbf9fa;
 }
 
-.btn-dark:hover {
+.btn-outline-dark:hover {
+  border: 1px solid #6b818d;
   background-color: #6b818d;
 }
 

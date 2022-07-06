@@ -30,6 +30,11 @@ a {
   width: 33%;
 }
 
+.btn-outline-dark {
+  border: 1px solid #6b818d;
+  background-color: #fbf9fa;
+}
+
 .btn-outline-dark:hover {
   background-color: #6b818d;
 }

@@ -11,16 +11,7 @@ body {
 }
 
 h1 {
-  font-size: 4rem;
-}
-
-h2 {
-  font-size: 2rem;
-  font-weight: bolder;
-}
-
-p {
-  line-height: 2rem;
+  font-size: 3rem;
 }
 
 a {
@@ -33,11 +24,14 @@ a {
   margin: 1.8rem 0;
 }
 
-
-.btn-outline-dark{
-  width: 33%;
-  font-size: 3rem;
+.btn {
+  font-size: 2rem;
   margin: 1.2rem 0;
+  width: 33%;
+}
+
+.btn-outline-dark:hover {
+  background-color: #6b818d;
 }
 
 @media only screen

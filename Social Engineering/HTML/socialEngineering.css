@@ -1,0 +1,30 @@
+/* Social Engineering */
+.phishing-email {
+  text-align: center;
+}
+
+.phishing-example {
+  width: 50%;
+  margin: 0 0 1.5rem;
+  padding: 0;
+}
+
+.phishing-elaboration {
+  width: 75%;
+  padding-top: 1rem;
+}
+
+.modal-btn {
+  margin: 0;
+}
+
+.modal-body, .modal-footer {
+  background-color: #fbf9fa;
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  .phishing-example {
+    width: 100%;
+  }
+}

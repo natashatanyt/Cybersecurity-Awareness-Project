@@ -13,13 +13,13 @@ body {
 
 h1 {
   font-size: 3.5rem;
-  margin: 3rem auto 0;
+  margin-bottom: 1rem;
 }
 
 h2 {
   font-size: 1.8rem;
-  font-weight: bolder;
-  margin-top: 2.5rem;
+  margin: 2rem auto 1rem;
+  font-weight: bold;
 }
 
 p {
@@ -29,17 +29,11 @@ p {
 a {
   text-decoration: none;
   color: #6b818d;
-  font-weight: bold;
-}
-
-br {
-  display: block;
-  margin: 0.7rem 0;
 }
 
 .container-fluid {
   padding: 0 10%;
-  margin: 1rem 0;
+  margin: 1rem 0 4rem;
 }
 
 /* Navbar Styles */
@@ -50,24 +44,21 @@ br {
 
 .navbar-toggler {
   font-size: 1.4rem;
+  border: none;
+  padding: 0;
 }
 
 .navbar-brand {
-  margin-left: 1rem;
-  font-size: 1.5rem;
+  margin-left: 0.5rem;
+  font-size: 1.4rem;
 }
 
 .nav-item {
-  padding: 0 5px;
-}
-
-.nav-link {
-  font-weight: 200;
-  text-decoration: none;
+  padding: 0 0.25rem;
 }
 
 .dropdown-content {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 .nav-container {
@@ -75,35 +66,16 @@ br {
   margin: 0;
 }
 
-/* Introduction Box */
-.introduction {
-  margin: 1rem 0 2rem;
-}
-
-.introduction-title {
-  padding: 0;
-  margin-bottom: 1rem;
-}
-
 /* Topics */
-.topics {
-  margin: 1rem 0;
-}
-
-.topics-title {
-  padding: 0;
-  margin-bottom: 1rem;
-}
-
 .topics-row {
   padding: 0;
 }
 
+/* Card Specific */
 .card {
-  margin: 1rem 0 1rem;
   border-color: black;
   background-color: #fbf9fa;
-  width: 46%;
+  width: 44%;
   border-radius: 7%;
   border: 2px solid;
 }
@@ -124,14 +96,13 @@ br {
 
 .card-footer {
   border: none;
-  margin: 0 0 1.5rem;
+  margin: 0.5rem 0 1.5rem;
   padding-top: 0;
   background-color: #fbf9fa;
 }
 
 .btn {
-  font-size: 1.3rem;
-  padding: 0.7rem 1rem;
+  font-size: 1.5rem;
 }
 
 .btn-dark {
@@ -141,11 +112,6 @@ br {
 
 .btn-dark:hover {
   background-color: #6b818d;
-}
-
-/* Other References */
-.other-references {
-  margin-bottom: 10%;
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
@@ -177,5 +143,9 @@ br {
   .card {
     margin: 1rem 0 1rem;
     width: 100%;
+  }
+
+  .btn {
+    font-size: 2.5rem;
   }
 }

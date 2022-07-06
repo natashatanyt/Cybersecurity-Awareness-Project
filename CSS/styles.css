@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+/* Colour Palette: https://colorpalettes.net/color-palette-1358/ */
 body {
   font-family: 'Poppins', sans-serif;
   text-align: left;
@@ -8,28 +9,26 @@ body {
   font-size: 62.5%;
   font-size: 1.5rem;
   background-color: #fbf9fa;
-  line-height: 2rem;
 }
 
 h1 {
-  font-size: 3rem;
-  margin: 3rem auto 0;
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
 }
 
 h2 {
   font-size: 1.8rem;
-  font-weight: bolder;
-  margin-top: 2.5rem;
+  margin: 2rem auto 1rem;
+  font-weight: bold;
 }
 
 p {
-  margin: 2rem auto;
+  line-height: 2rem;
 }
 
 a {
   text-decoration: none;
   color: #6b818d;
-  font-weight: bold;
 }
 
 li {
@@ -42,7 +41,7 @@ img {
 
 .container-fluid {
   padding: 0 10%;
-  margin: 1rem 0 2%;
+  margin: 1rem 0 4rem;
 }
 
 /* Navbar Styles */
@@ -51,26 +50,23 @@ img {
   background-color: #b1c2cf;
 }
 
-.navbar-brand {
-  margin-left: 1rem;
-  font-size: 1.5rem;
+.navbar-toggler {
+  font-size: 1.4rem;
+  border: none;
+  padding: 0;
 }
 
-.navbar-toggler {
+.navbar-brand {
+  margin-left: 0.5rem;
   font-size: 1.4rem;
 }
 
 .nav-item {
-  padding: 0 5px;
-}
-
-.nav-link {
-  font-weight: 200;
-  text-decoration: none;
+  padding: 0 0.25rem;
 }
 
 .dropdown-content {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 .nav-container {
@@ -78,6 +74,27 @@ img {
   margin: 0;
 }
 
+/* Buttons */
+.play-btn {
+  text-align: center;
+}
+
+.btn {
+  font-size: 1.5rem;
+  text-align: center;
+  width: 33%;
+}
+
+.btn-dark {
+  background-color: #b1c2cf;
+  color: black;
+}
+
+.btn-dark:hover {
+  background-color: #6b818d;
+}
+
+/* to remove below and add to individual */
 /* Introduction */
 .introduction-image {
   display: block;
@@ -94,6 +111,7 @@ img {
 
 .video {
   text-align: center;
+  margin: 2rem;
 }
 
 /* Body Images */
@@ -101,31 +119,8 @@ img {
   text-align: center;
 }
 
-/* Quiz */
-.play-btn {
-  text-align: center;
-}
-
-.btn {
-  font-size: 1.5rem;
-  width: 20%;
-  margin: 2rem 0 0;
-}
-
-.btn-dark {
-  background-color: #b1c2cf;
-  color: black;
-}
-
-.btn-dark:hover {
-  background-color: #6b818d;
-}
 
 /* References */
-.references {
-  margin-bottom: 10%;
-}
-
 .reference-div {
   width: 50%;
 }
@@ -153,28 +148,26 @@ img {
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
   body {
     font-size: 2.2rem;
-    line-height: 2.3rem;
   }
 
   h1 {
-    font-size: 4rem;
+    font-size: 4.5rem;
   }
 
   h2 {
-    font-size: 2.5rem;
-    font-weight: bold;
+    font-size: 3.2rem;
+  }
+
+  img {
+    width: 100%;
   }
 
   .navbar {
     padding: 0.7rem 5%;
   }
 
-  .navbar-brand {
-    font-size: 2.5rem;
-  }
-
   .navbar-toggler {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .nav-item {
@@ -182,9 +175,13 @@ img {
   }
 
   .nav-link {
-    font-size: 3rem;
-    margin: 0.5rem;
+    font-size: 1.5rem;
     text-decoration: none;
+  }
+
+  .card {
+    margin: 1rem 0 1rem;
+    width: 100%;
   }
 
   .btn {

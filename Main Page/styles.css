@@ -18,17 +18,17 @@ h1 {
 
 h2 {
   font-size: 1.8rem;
-  margin: 2rem auto 1rem;
+  margin: 2.5rem auto 1rem;
   font-weight: bold;
 }
 
 p {
-  line-height: 2rem;
+  line-height: 2.5rem;
 }
 
 a {
-  text-decoration: none;
-  color: #6b818d;
+  color: #4974a5;
+  font-weight: bold;
 }
 
 .container-fluid {
@@ -49,12 +49,17 @@ a {
 }
 
 .navbar-brand {
-  margin-left: 0.7rem;
+  margin-left: 0.5rem;
   font-size: 1.5rem;
+  font-weight: normal;
 }
 
 .nav-item {
   padding: 0 0.25rem;
+}
+
+.nav-link {
+  font-weight: normal;
 }
 
 .dropdown-content {
@@ -76,7 +81,6 @@ a {
   border-color: black;
   background-color: #fbf9fa;
   width: 44%;
-  border-radius: 7%;
   border: 2px solid;
 }
 

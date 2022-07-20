@@ -36,6 +36,10 @@ a {
   margin: 1rem 0 4rem;
 }
 
+.qn-container {
+  margin-top: 3rem;
+}
+
 .choice-container {
   display: flex;
   margin-bottom: 0.5rem;

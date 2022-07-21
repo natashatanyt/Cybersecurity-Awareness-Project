@@ -1,0 +1,6 @@
+Doxxing:
+- Change `preventing doxxing` into infographic
+
+
+Malware:
+- Bullet point `types of adventures`

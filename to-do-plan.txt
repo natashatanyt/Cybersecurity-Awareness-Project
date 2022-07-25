@@ -1,5 +1,0 @@
-Doxxing:
-- Change `preventing doxxing` into infographic
-
-MFA:
-- Types of Authentication infographic

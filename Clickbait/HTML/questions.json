@@ -15,11 +15,11 @@
     "answer": 4
   },
   {
-    "question": "Which of these statements about clickbait is false?",
-    "choice1": "Clickbait articles often include misinformation",
-    "choice2": "Clickbait articles help companies earn money from advertisers",
-    "choice3": "Clickbait articles are well-written and have credible sources",
-    "choice4": "Clickbait articles can spread fake news",
+    "question": "Which of these statements about clickbait articles is false?",
+    "choice1": "They often include misinformation",
+    "choice2": "They help companies earn money from advertisers",
+    "choice3": "They are well-written and have credible sources",
+    "choice4": "They can spread fake news",
     "answer": 3
   },
   {

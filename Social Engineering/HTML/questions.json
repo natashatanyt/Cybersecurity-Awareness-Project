@@ -7,7 +7,7 @@
     "answer": 1
   },
   {
-    "question": "You are walking down a very busy road when you see a thumb drive on the ground. It is in a very obvious place, and you dont see anyone going towards it. What should you do?",
+    "question": "You are walking down a very busy road when you see a thumb drive on the ground. It is in a very obvious place, and you don't see anyone going towards it. What should you do?",
     "choice1": "Leave it there",
     "choice2": "Bring it home",
     "choice3": "Put it somewhere less obvious",
@@ -27,12 +27,12 @@
     "choice1": "Phone number",
     "choice2": "Address",
     "choice3": "Full name",
-    "choice4": "Favourite food",
+    "choice4": "Favorite food",
     "answer": 4
   },
   {
     "question": "Which of the following are signs that you have received a phishing email?",
-    "choice1": "URL in the message is different from the URL when your mouse cursor hovers over the link",
+    "choice1": "The URL in the message is different from the URL when your mouse cursor hovers over the link",
     "choice2": "The name of the organization is misspelled",
     "choice3": "The sender's email address is different from the organization they claim to be from",
     "choice4": "All of the above",
